@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AudioToMicrophone": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\Jules\\Documents\\Workspace\\voiceless-voice\\"
+    }
+  }
+}
