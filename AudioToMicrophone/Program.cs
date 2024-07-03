@@ -34,7 +34,7 @@ class Program
     static void ReadAndDeleteAllAudioFiles(string folderPath, int vbCableDeviceNumber)
     {
         // Get all audio files in the folder
-        var audioFiles = Directory.GetFiles(folderPath, "*.wav")
+        var audioFiles = Directory.GetFiles(folderPath, "*.mp3")
                                   .OrderBy(f => File.GetCreationTime(f))
                                   .ToList();
 
